@@ -105,4 +105,4 @@ for i in range(15000):
 	if field_zeroing:
 		field = np.zeros((3, 3))
 
-np.savez('test', w01=weights_0_1, w12=weights_1_2)
+np.savez('weights', w01=weights_0_1, w12=weights_1_2)

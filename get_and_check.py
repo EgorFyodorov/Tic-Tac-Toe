@@ -32,7 +32,7 @@ def win_checking(a):
 
 import numpy as np
 
-opener = np.load('test.npz')
+opener = np.load('weights.npz')
 print(opener.files)
 weights_0_1 = opener['w01']
 weights_1_2 = opener['w12']
