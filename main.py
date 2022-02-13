@@ -74,7 +74,7 @@ np.random.seed(1)
 field = np.zeros((3, 3))
 
 alpha = 0.05
-hidden_size = 12
+hidden_size = 8
 weights_0_1 = 2 * np.random.random((9, hidden_size)) - 1
 weights_1_2 = 2 * np.random.random((hidden_size, 9)) - 1
 current_player = -1

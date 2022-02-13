@@ -22,7 +22,7 @@ def lines_painting():
 	pygame.draw.line(GlobalScreen, (0, 0, 0), [0, 400], [600, 400])
 
 import pygame
-from mainpyg import *
+from main_for_visualiztion import *
 
 pygame.init()
 W = 800
